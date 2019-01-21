@@ -6,6 +6,9 @@ export class Greeter {
     return `Hello, ${this.greeting}!`
   }
 
+  /**
+   * Super method
+   */
   greetMe() {
     /* istanbul ignore next line */
     if (IS_DEV) {
