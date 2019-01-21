@@ -7,6 +7,19 @@ export class Greeter {
   }
 
   /**
+   * Super method 2
+   */
+  greetMe2() {
+    /* istanbul ignore next line */
+    if (IS_DEV) {
+      // tslint:disable-next-line:no-console
+      console.warn('this method is deprecated, use #greet instead')
+    }
+
+    return this.greet()
+  }
+
+  /**
    * Super method
    */
   greetMe() {
