@@ -7,9 +7,9 @@ export class Greeter {
   }
 
   /**
-   * Super method
+   * Super method 3
    */
-  greetMe2() {
+  greetMe3() {
     /* istanbul ignore next line */
     if (IS_DEV) {
       // tslint:disable-next-line:no-console
