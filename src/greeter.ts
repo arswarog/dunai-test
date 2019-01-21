@@ -7,7 +7,7 @@ export class Greeter {
   }
 
   /**
-   * Super method 2
+   * Super method
    */
   greetMe2() {
     /* istanbul ignore next line */
